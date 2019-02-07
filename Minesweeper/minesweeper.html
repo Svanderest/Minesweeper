@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minesweeper</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="minesweeper.js"></script>
+	<style type="text/css">
+		form input
+		{
+			display: block;
+		}		
+		#mines input
+		{
+			background-color: #ccc;
+			border-color: #bbb;
+			border-width: 0.05px;
+			display: inline-block;
+			font-weight: bold;
+			height:  25px;
+			width: 25px;
+		}
+		#mines input:hover
+		{
+			background: #aaa;
+		}		
+		.c1
+		{
+			color: blue;
+		}
+		.c2
+		{
+			color: green;
+		}
+		.c3
+		{
+			color: red;
+		}
+		.c4
+		{
+			color: midnightblue;
+		}
+		.c5
+		{
+			color: maroon;
+		}
+		.c6
+		{
+			color: cyan;
+		}
+		.c7
+		{
+			color:purple;
+		}		
+		.c0,.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8
+		{
+			border-style: dotted;			
+		}
+	</style>
+</head>
+<body onload="makeForm()">
+	<form id="controls">
+		
+	</form>
+	<div id="mines">
+		
+	</div>
+</body>
+</html>
